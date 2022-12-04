@@ -22,18 +22,10 @@ button {
     padding: 10px;
 }
 
-.clr1 {
-    color: #f00;
+.green {
+    color: green;
 }
 
-.clr2 {
-    color: #f000;
-}
-
-.div1 {
+.red {
     color: red;
-}
-
-.div2 {
-    color: blue;
 }

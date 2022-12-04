@@ -1,10 +1,12 @@
 function oddAndEven() {
-    let data = document.createElement("div");
-    let data2 = document.createElement("div");
-    data.className = "div1";
-    data2.className = "div2";
-    let newElementRed = document.body.appendChild(data);
-    let newElementBlue = document.body.appendChild(data2);
+    let sentence = document.getElementById("input").value;
+    let splitSentence = sentence.split(" ");
+    console.log(splitSentence);
+    let newElement = document.createElement("div");
+    let newContent = document.createTextNode(splitSentence);
+    newElement.appendChild(newContent);
+    document.body.appendChild(newElement);
+
 }
 
 function color() {
