@@ -22,10 +22,10 @@ button {
     padding: 10px;
 }
 
-.green {
-    color: green;
-}
-
 .red {
     color: red;
+}
+
+.blue {
+    color: blue;
 }
